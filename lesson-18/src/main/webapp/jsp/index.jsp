@@ -81,7 +81,7 @@
 
 					<div class="form-group">
 						<label for="level">Level:</label> <input list="datalist"
-							autocomplete="on" class="form-control" id="level" name="level">
+							autocomplete="on" class="form-control" id="level" name="level" value="${participant.level}">
 						<datalist id="datalist">
 							<option value="L1">
 							<option value="L2">
